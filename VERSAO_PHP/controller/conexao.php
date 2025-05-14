@@ -1,10 +1,10 @@
 <?php
 
-  $db_name = 'GrupoCriatil';
-  $db_host = 'projectt.ddns.net';
-  $db_port = '3789';  
-  $db_user = 'GrupoCriatil';
-  $db_pass = 'GrupoCriatil';
+  $db_name = 'criatil';
+  $db_host = 'localhost';
+  $db_port = '3306';  
+  $db_user = 'root';
+  $db_pass = '';
 
   $conn = new PDO("mysql:dbname=$db_name;host=$db_host;port=$db_port", $db_user, $db_pass);
 

@@ -112,7 +112,6 @@ $brinquedosPedidos = $pedidosDao->getBrinqPedidos($usuarioData->getCodigo());
                                     echo($pedido["Data_Pedido"]);
                                 ?></div>
                                 <div class="produto-valor">
-                                    <div class="valor-unidade">R$<?php echo number_format($produto->getPrecoBrinq(), 2, ',', '.') ?></div>
                                     <div class="valor-total">R$<?php 
                                     $precoTotal = $produto->getPrecoBrinq() * $brinq->getQuantidade();
                                     echo number_format($precoTotal, 2, ',', '.');

@@ -55,7 +55,7 @@ ini_set('display_errors','Off'); ini_set('error_reporting', E_ALL ); define('WP_
                     <div class="produto-valor">
                         <div class="valor_flex">
                             <div class="valor-unidade">R$0,00/un.</div>
-                            <div class="valor-total">R$0,00</div>
+                            <div class="valor-total">R$0,00 total</div>
                         </div>
                     </div>
                     <div class="excluir-item">
@@ -104,7 +104,7 @@ ini_set('display_errors','Off'); ini_set('error_reporting', E_ALL ); define('WP_
                                 <div class="produto-valor">
                                     <div class="valor_flex">
                                         <div class="valor-unidade">R$<?php echo(number_format($brinquedo->getPrecoBrinq(), 2, ',', '.')); ?>/un.</div>
-                                        <div class="valor-total">R$<?php echo(number_format(($brinquedo->getPrecoBrinq()*$quantidadeArray[$contador]), 2, ',', '.')); ?></div>
+                                        <div class="valor-total">R$<?php echo(number_format(($brinquedo->getPrecoBrinq()*$quantidadeArray[$contador]), 2, ',', '.')); ?> total</div>
                                     </div>
                                 </div>
                                 <div class="excluir-item">

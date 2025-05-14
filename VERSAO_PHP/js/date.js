@@ -1,3 +1,4 @@
+/*
 let data = new Date(); // Obtém a data atual
 let inputData = document.getElementById("nascimento"); // Seleciona o input
 
@@ -12,3 +13,4 @@ let dataMin = `${"1920"}-${"01"}-${"01"}`;
 
 inputData.setAttribute("max", dataMax)
 inputData.setAttribute("min", dataMin)
+*/
